@@ -24,9 +24,6 @@ class PlayerManager:
             print("")
         
 
-    
-    
-
 
     def delete_player(self, id):
         player_id = self.find_by_id(id)

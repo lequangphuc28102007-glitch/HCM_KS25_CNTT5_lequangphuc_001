@@ -33,7 +33,7 @@ def main():
                 
                 new_player = Player(player_id, player_name, speed_score, technique_score, goal_score)
                 manager.players.append(new_player)
-                Player.update_status_player()
+                Player.update_status_player(new_player)
 
 
                 print("đã thêm thành công cầu thủ!")
